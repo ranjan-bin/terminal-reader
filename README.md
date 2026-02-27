@@ -9,7 +9,7 @@ Built with [Textual](https://textual.textualize.io/) and [Rich](https://rich.rea
 ## Install
 
 ```bash
-git clone https://github.com/yourusername/tty-reader.git
+git clone https://github.com/ranjan-bin/terminal-reader.git
 cd tty-reader
 pip install -e .
 ```
