@@ -23,7 +23,7 @@ Built with [Textual](https://textual.textualize.io/) and [Rich](https://rich.rea
 The recommended way to install Python CLI applications globally is using `pipx`. This avoids system package conflicts.
 
 ```bash
-git clone 
+git clone https://github.com/ranjan-bin/terminal-reader.git
 cd tty-reader
 pipx install .
 ```
