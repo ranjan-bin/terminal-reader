@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tty-reader"
+version = "3.0.0"
+description = "Read books in your terminal. Look like you're working."
+requires-python = ">=3.9"
+dependencies = [
+    "textual>=0.40.0",
+    "pymupdf>=1.23.0",
+    "python-docx>=1.0.0",
+    "ebooklib>=0.18",
+]
+
+[project.scripts]
+tty-reader = "tty_reader.app:main"
+
+[tool.setuptools.packages.find]
+include = ["tty_reader*"]
+
+[tool.setuptools.package-data]
+tty_reader = ["styles/*.tcss"]
