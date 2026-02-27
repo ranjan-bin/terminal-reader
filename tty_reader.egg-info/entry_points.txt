@@ -1,0 +1,2 @@
+[console_scripts]
+tty-reader = tty_reader.app:main
